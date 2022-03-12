@@ -8,9 +8,9 @@ const Header = (title, date, temp) => {
   newDate.classList.add('date')
   newTemp.classList.add('temp')
 
-  headerMain.appendChild('newDate')
-  headerMain.appendChild('heading')
-  headerMain.appendChild('newTemp')
+  headerMain.appendChild(newDate)
+  headerMain.appendChild(heading)
+  headerMain.appendChild(newTemp)
 
   newDate.textContent = date;
   heading.textContent = title;
